@@ -160,9 +160,6 @@
 		});
 	};
 
-
-
-
 	// Document on load.
 	$(function () {
 		fullHeight();
@@ -172,5 +169,5 @@
 		owlCarouselFeatureSlide();
 	});
 
-
+	setTimeout(function () { $('a.mail').text(atob('bWFpbEBuaGFuLnB0')); }, 2000)
 }());
